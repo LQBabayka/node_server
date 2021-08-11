@@ -24,6 +24,6 @@ http.createServer(function (request, response) {
 
         });
     }
-}).listen(8888);
+}).listen(PORT);
 
 //Запуск скрипта через команду: node index.js В браузере страница: http://localhost:8888/
