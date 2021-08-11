@@ -1,6 +1,8 @@
 let fs = require('fs'); //Подключил модуль для работы с файлами
 let http = require('http'); //Подключил модуль для работы http
 
+const PORT = process.env.PORT || 80
+
 console.log('start');
 http.createServer(function (request, response) {
     if (request.url != '/favicon.ico') {
